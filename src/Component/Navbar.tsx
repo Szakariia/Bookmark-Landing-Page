@@ -11,9 +11,9 @@ function Navbar() {
 
     const [showMenu, setshowMenu] = useState(false)
   return (
-    <div>
+    <div className='absolute top-0'>
         {!showMenu &&
-            <div className='flex justify-between items-center px-[32px] pt-[48px] lg:pl-[171px] lg:pr-[165px]'>
+            <div className='w-screen flex justify-between items-center px-[32px] pt-[48px] lg:pl-[171px] lg:pr-[165px]'>
                 <div><BookLogo /></div>
                 <div>
                 <div className='hidden md:block space-x-[48px] text-[13px] font-[300]'>
@@ -32,7 +32,7 @@ function Navbar() {
         }
     {/* // Mobile Menu */}
         {showMenu &&
-            <div className='absolute z-30 w-screen h-screen bg-bleumarine bg-opacity-[90%] py-[40px] text-white'>
+            <div className='z-30 sticky top-0 w-full h-screen bg-bleumarine bg-opacity-[90%] py-[40px] text-white'>
                 <div className='w-screen flex justify-between items-center px-[33px] mb-[40px]'>
                     <BookLogoWhite />
                     <IconClose onClick={() => setshowMenu(false)} />

@@ -1,0 +1,17 @@
+[
+    {
+        "Img" : "../../Assets/logo-chrome.svg",
+        "Title": "Add to Chrome",
+        "Desc" : "Minimum version 62"
+    },
+    {
+        "Img" : "../../Assets/logo-chrome.svg",
+        "Title": "Add to Firefox",
+        "Desc" : "Minimum version 55"
+    },
+    {
+        "Img" : "../../Assets/logo-chrome.svg",
+        "Title": "Add to Opera",
+        "Desc" : "Minimum version 46"
+    }
+]
